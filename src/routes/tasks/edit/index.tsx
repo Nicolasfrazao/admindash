@@ -10,8 +10,8 @@ import {
 } from "@ant-design/icons";
 import { Modal } from "antd";
 
-import { Accordion } from "@/components";
-import type { Task } from "@/graphql/schema.types";
+import { Accordion } from "../../../components";
+import type { Task } from "../../../graphql/schema.types";
 
 import { DescriptionForm } from "./forms/description/description-form";
 import { DescriptionHeader } from "./forms/description/description-header";
@@ -66,7 +66,6 @@ export const TasksEditPage = () => {
         setActive={setActiveKey}
         fallback={<DescriptionHeader description={description} />}
         isLoading={isLoading}
-        // @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66
         icon={<AlignLeftOutlined />}
         label="Description"
       >
@@ -81,7 +80,6 @@ export const TasksEditPage = () => {
         setActive={setActiveKey}
         fallback={<DueDateHeader dueData={dueDate} />}
         isLoading={isLoading}
-        // @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66
         icon={<FieldTimeOutlined />}
         label="Due date"
       >
@@ -96,7 +94,6 @@ export const TasksEditPage = () => {
         setActive={setActiveKey}
         fallback={<UsersHeader users={users} />}
         isLoading={isLoading}
-        // @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66
         icon={<UsergroupAddOutlined />}
         label="Users"
       >

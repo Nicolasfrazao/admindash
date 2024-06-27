@@ -5,8 +5,8 @@ import { CalendarOutlined } from "@ant-design/icons";
 import { Badge, Card, List, Skeleton as AntdSkeleton } from "antd";
 import dayjs from "dayjs";
 
-import { Text } from "@/components";
-import type { DashboardCalendarUpcomingEventsQuery } from "@/graphql/types";
+import { Text } from "../../../../components";
+import type { DashboardCalendarUpcomingEventsQuery } from "../../../../graphql/types";
 
 import { DASHBORAD_CALENDAR_UPCOMING_EVENTS_QUERY } from "./queries";
 

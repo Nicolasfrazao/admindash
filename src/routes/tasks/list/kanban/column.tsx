@@ -4,7 +4,7 @@ import { MoreOutlined, PlusOutlined } from "@ant-design/icons";
 import { useDroppable, type UseDroppableArguments } from "@dnd-kit/core";
 import { Badge, Button, Skeleton, Space } from "antd";
 
-import { Text } from "@/components";
+import { Text } from "../../../../components";
 
 type Props = {
   id: string;

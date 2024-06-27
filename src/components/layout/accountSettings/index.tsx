@@ -8,8 +8,8 @@ import { Button, Card, Drawer, Form, Input, Spin } from "antd";
 import type {
   UpdateUserMutation,
   UpdateUserMutationVariables,
-} from "@/graphql/types";
-import { getNameInitials } from "@/utilities";
+} from "../../../graphql/types";
+import { getNameInitials } from "../../../utilities";
 
 import { CustomAvatar } from "../../avatar";
 import { Text } from "../../text";

@@ -14,9 +14,9 @@ import type { GetFieldsFromList } from "@refinedev/nestjs-query";
 import { SearchOutlined } from "@ant-design/icons";
 import { Input, Space, Table } from "antd";
 
-import { CustomAvatar, PaginationTotal, Text } from "@/components";
-import type { CompaniesListQuery } from "@/graphql/types";
-import { currencyNumber } from "@/utilities";
+import { CustomAvatar, PaginationTotal, Text } from "../../../components";
+import type { CompaniesListQuery } from "../../../graphql/types";
+import { currencyNumber } from "../../../utilities";
 
 import { COMPANIES_LIST_QUERY } from "./queries";
 

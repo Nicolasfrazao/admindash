@@ -4,7 +4,7 @@ import { AuditOutlined, ShopOutlined, TeamOutlined } from "@ant-design/icons";
 import { Area, type AreaConfig } from "@ant-design/plots";
 import { Card, Skeleton } from "antd";
 
-import { Text } from "@/components";
+import { Text } from "../../../../components";
 
 type Type = "companies" | "contacts" | "deals";
 

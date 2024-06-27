@@ -5,11 +5,11 @@ import { UnorderedListOutlined } from "@ant-design/icons";
 import { Card, List, Skeleton as AntdSkeleton, Space } from "antd";
 import dayjs from "dayjs";
 
-import { CustomAvatar, Text } from "@/components";
+import { CustomAvatar, Text } from "../../../../components";
 import type {
   DashboardLatestActivitiesAuditsQuery,
   DashboardLatestActivitiesDealsQuery,
-} from "@/graphql/types";
+} from "../../../../graphql/types";
 
 import {
   DASHBOARD_LATEST_ACTIVITIES_AUDITS_QUERY,
@@ -89,7 +89,6 @@ export const DashboardLatestActivities = ({ limit = 5 }: Props) => {
             gap: "8px",
           }}
         >
-          {/* @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66 */}
           <UnorderedListOutlined />
           <Text size="sm" style={{ marginLeft: ".5rem" }}>
             Latest activities

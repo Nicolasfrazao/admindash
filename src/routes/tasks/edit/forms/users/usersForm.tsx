@@ -8,12 +8,12 @@ import type {
 
 import { Button, Form, Select, Space } from "antd";
 
-import { USERS_SELECT_QUERY } from "@/graphql/queries";
+import { USERS_SELECT_QUERY } from "../../../../../graphql/queries";
 import type {
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
   UsersSelectQuery,
-} from "@/graphql/types";
+} from "../../../../../graphql/types";
 
 import { UPDATE_TASK_MUTATION } from "../../queries";
 
