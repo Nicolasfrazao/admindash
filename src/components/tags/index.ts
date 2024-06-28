@@ -1,3 +1,3 @@
-export * from "./contactStatus";
-export * from "./statusTag";
-export * from "./userTag";
+export * from "./contact-status-tag";
+export * from "./quote-status-tag";
+export * from "./user-tag";

@@ -1,1 +1,1 @@
-export * from "./dateColors";
+export * from "./get-date-colors"

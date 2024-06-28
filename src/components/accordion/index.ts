@@ -1,2 +1,2 @@
 export { Accordion } from "./accordion";
-export { AccordionHeaderSkeleton } from "./accordionSkeleton";
+export { AccordionHeaderSkeleton } from "./accordion-header-skeleton";

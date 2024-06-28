@@ -1,4 +1,4 @@
-export * from "./currency";
+export * from "./currency-number";
 export * from "./date";
-export * from "./nameInitials";
-export * from "./randomColors";
+export * from "./get-name-initials";
+export * from "./get-random-color";

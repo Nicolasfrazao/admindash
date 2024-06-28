@@ -2,7 +2,7 @@ import { useCustom } from "@refinedev/core";
 
 import { Col, Row } from "antd";
 
-import type { DashboardTotalCountsQuery } from "@/graphql/types";
+import type { DashboardTotalCountsQuery } from "../../graphql/types";
 
 import {
   CalendarUpcomingEvents,

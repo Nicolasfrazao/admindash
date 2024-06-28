@@ -1,1 +1,1 @@
-export { KanbanAddCardButton } from "./button/addCardButton";
+export { KanbanAddCardButton } from "./button/add-card-button";
